@@ -39,3 +39,9 @@ data/raw/   сырые выгрузки
 pip install -r requirements.txt
 python src/explore_gbd_ul.py
 ```
+
+### Быстрая настройка
+
+```bash
+bash setup.sh
+```
