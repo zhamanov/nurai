@@ -28,3 +28,14 @@ python src/nbk_rates.py 2026-11-24
 src/        загрузчики данных
 data/raw/   сырые выгрузки
 ```
+
+## Доступ к data.egov.kz
+
+1. Получите API-ключ в личном кабинете на https://data.egov.kz
+2. Скопируйте `.env.example` в `.env` и впишите ключ (файл `.env` в git не попадает).
+3. Запустите осмотр набора «Юридические лица»:
+
+```bash
+pip install -r requirements.txt
+python src/explore_gbd_ul.py
+```
